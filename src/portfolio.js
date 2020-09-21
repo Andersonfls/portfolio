@@ -33,9 +33,9 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ 7+ years building highly interactive and scalable web and mobile applications"),
+    emoji("⚡ 3+ years working only with back-end micro-services "),
+    emoji("⚡ Integration of third party services such as Rest API's / Firebase/ other System's")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -95,16 +95,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend",
-      progressPercentage: "90%"
+      Stack: "Java",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "70%"  //Insert relative proficiency in percentage
+      Stack: "Javascript / Angular",  //Insert stack or technology you have experience in
+      progressPercentage: "60%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
+      Stack: "React Native",
+      progressPercentage: "50%"
     }
   ]
 };
@@ -214,29 +214,28 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Master the Mainframe Finalist",
+      subtitle: "Finalist in a coding challenge in Cobol and Mainframe",
+      image: require("./assets/images/master-main.jpeg"),
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Guide Blog", url: "https://www.ibm.com/br-pt/it-infrastructure/z/education/master-the-mainframe-contest" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "DevOps Essentials Professional",
+      subtitle: "DEPC certificate",
+      image: require("./assets/images/devops.png"),
+      footerLink: [{ name: "View Certificate", url: "" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Cobol Developer",
+      subtitle: "Completed Certifcation from Cobol Development",
+      image: require("./assets/images/ucb_logo.png"),
       footerLink: [
         { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Final Project", url: "" }
       ]
     }
   ]
