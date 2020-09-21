@@ -7,23 +7,23 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Anderson Soares",
+  title: "Hi, I'm Anderson",
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Java / JavaScript / Angular / React Native and some other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/1jhXu2wd3ucdODLVjBEmiO8FJxWoAwXxg/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/andersonfls",
+  linkedin: "https://www.linkedin.com/in/andersonfr/?locale=en_US",
+  gmail: "anderson.frsoares0@catolica.edu.br",
+  gitlab: "https://github.com/andersonfls",
+  facebook: "",
+  medium: "https://medium.com/@polga99",
+  stackoverflow: "https://pt.stackoverflow.com/users/206257/anderson-soares"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -59,16 +59,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -81,18 +85,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
@@ -103,16 +95,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Backend",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      progressPercentage: "70%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ]
 };
@@ -124,29 +116,64 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Full Stack Developer",
+      company: "Unbox",
+      companylogo: require("./assets/images/unbox_color-logo.png"),
+      date: "Jul 2020 – Present",
+      desc: "Working with Mobile development for the 2 biggest bank in Brazil, with 18 million active users and 8 millions daily access.",
+      href: "https://unboxculture.com/",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Buiding new components",
+        "Manage the integration between the modules and services"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Full Stack Developer",
+      company: "Unicef",
+      companylogo: require("./assets/images/unicef-logo-3.jpg"),
+      date: "Jul 2019 – Jun 2020",
+      desc: "Partnership between Unicef, World Bank Group and the Angola Government",
+      href: "https://www.minea.gv.ao/",
+      descBullets: [
+        "With this system the government can access real time data manage the problems with water supply and predict the regions that will be running out of potable water.",
+        "Functionalities: Register (Employees, provinces, report problems...), Canvas Reports, Leaflet js, Interative maps and many others."
+      ]
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer",
+      company: "4Quality",
+      companylogo: require("./assets/images/4quality-logo.png"),
+      date: "Jul 2017 – May 2019",
+      desc: "Software developer working for an financial supplementary Pension Institution by an outsourcing company",
+      href: "http://www.4quality.com.br/",
+      descBullets: [
+        "Construction of a module for communication and sending data to the Federal Revenue Service, for a private pension institute with more than 100 thousand members.",
+        "Integrate the company's internal systems (data processing), working with Spring bath for process management"
+      ]
+    },
+    {
+      role: "Java Developer",
+      company: "Objetiva I.T",
+      companylogo: require("./assets/images/obj-it-logo.png"),
+      date: "Oct 2015 – May 2017",
+      desc: "Software developer working with Health and Financial Software's maintained by the company",
+      href: "https://objetivait.com.br/",
+      descBullets: [
+        "Manage all health systems of the public institution, including users, queries and integrations with other systems of the company",
+        "Build new features for the Health management and Credit Platform"
+      ]
+    },
+    {
+      role: "Developer Intern",
+      company: "Brazil Government",
+      companylogo: require("./assets/images/mte-logo.png"),
+      href: "https://mpt.mp.br/",
+      date: "Oct 2013 – Jun 2014",
+      desc: "Software developer Intern",
+      descBullets: [
+        "Responsible for developing front-end pages in JSF, Html, Css.",
+        "Responsible for monitoring the management software process"
+      ]
     },
   ]
 };
@@ -156,7 +183,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "andersonfls", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -165,15 +192,15 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES THAT I HELPED TO IMPROVE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/banco-do-brasil-logo.jpg"),
+      link: "https://www.bb.com.br/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/postalis-logo2.png"),
+      link: "http://www.postalis.org.br/"
     }
   ]
 };
@@ -183,7 +210,7 @@ const bigProjects = {
 const achievementSection = {
 
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
@@ -265,8 +292,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+55-61984412490",
+  email_address: "anderson.frsoares@catolica.edu.br"
 };
 
 //Twitter Section
